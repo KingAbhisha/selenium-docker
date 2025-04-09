@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="20" passed="20" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-08T13:06:23 GMT" name="flight-reservation" finished-at="2025-04-08T13:06:55 GMT" duration-ms="31998">
+    <groups>
+    </groups>
+    <test started-at="2025-04-08T13:06:23 GMT" name="passengers-count-2" finished-at="2025-04-08T13:06:52 GMT" duration-ms="28554">
+      <class name="com.vinsguru.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:23 GMT" name="setDriver" finished-at="2025-04-08T13:06:31 GMT" duration-ms="8074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7749bf93]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:31 GMT" name="setParameters" finished-at="2025-04-08T13:06:33 GMT" depends-on-methods="com.vinsguru.tests.AbstractTest.setDriver" duration-ms="1188" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-2.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:33 GMT" name="userRegistrationTest" finished-at="2025-04-08T13:06:43 GMT" duration-ms="10144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:43 GMT" name="registrationConfirmationTest" finished-at="2025-04-08T13:06:46 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="3510" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:46 GMT" name="flightsSearchTest" finished-at="2025-04-08T13:06:49 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:49 GMT" name="flightsSelectionTest" finished-at="2025-04-08T13:06:50 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="1505" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:50 GMT" name="flightReservationConfirmationTest" finished-at="2025-04-08T13:06:52 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@73302995]" started-at="2025-04-08T13:06:52 GMT" name="quitDriver" finished-at="2025-04-08T13:06:52 GMT" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.vinsguru.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-2 -->
+    <test started-at="2025-04-08T13:06:23 GMT" name="passengers-count-4" finished-at="2025-04-08T13:06:52 GMT" duration-ms="29040">
+      <class name="com.vinsguru.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:23 GMT" name="setupConfig" finished-at="2025-04-08T13:06:23 GMT" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:23 GMT" name="setDriver" finished-at="2025-04-08T13:06:32 GMT" duration-ms="8934" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@13330ac6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:32 GMT" name="setParameters" finished-at="2025-04-08T13:06:33 GMT" depends-on-methods="com.vinsguru.tests.AbstractTest.setDriver" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-4.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:33 GMT" name="userRegistrationTest" finished-at="2025-04-08T13:06:43 GMT" duration-ms="10366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:43 GMT" name="registrationConfirmationTest" finished-at="2025-04-08T13:06:47 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="4149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:47 GMT" name="flightsSearchTest" finished-at="2025-04-08T13:06:49 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:49 GMT" name="flightsSelectionTest" finished-at="2025-04-08T13:06:51 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="2349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:51 GMT" name="flightReservationConfirmationTest" finished-at="2025-04-08T13:06:52 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@51133c06]" started-at="2025-04-08T13:06:52 GMT" name="quitDriver" finished-at="2025-04-08T13:06:52 GMT" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.vinsguru.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-4 -->
+    <test started-at="2025-04-08T13:06:23 GMT" name="passengers-count-3" finished-at="2025-04-08T13:06:52 GMT" duration-ms="29118">
+      <class name="com.vinsguru.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:23 GMT" name="setDriver" finished-at="2025-04-08T13:06:32 GMT" duration-ms="8389" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1b84f475]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:32 GMT" name="setParameters" finished-at="2025-04-08T13:06:33 GMT" depends-on-methods="com.vinsguru.tests.AbstractTest.setDriver" duration-ms="874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-3.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:33 GMT" name="userRegistrationTest" finished-at="2025-04-08T13:06:46 GMT" duration-ms="13009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:46 GMT" name="registrationConfirmationTest" finished-at="2025-04-08T13:06:47 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="1235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:47 GMT" name="flightsSearchTest" finished-at="2025-04-08T13:06:49 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="2151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:49 GMT" name="flightsSelectionTest" finished-at="2025-04-08T13:06:50 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="1444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:50 GMT" name="flightReservationConfirmationTest" finished-at="2025-04-08T13:06:52 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@6c2ed0cd]" started-at="2025-04-08T13:06:52 GMT" name="quitDriver" finished-at="2025-04-08T13:06:52 GMT" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.vinsguru.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-3 -->
+    <test started-at="2025-04-08T13:06:23 GMT" name="passengers-count-1" finished-at="2025-04-08T13:06:55 GMT" duration-ms="31998">
+      <class name="com.vinsguru.tests.flightreservation.FlightReservationTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:23 GMT" name="setDriver" finished-at="2025-04-08T13:06:31 GMT" duration-ms="8084" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@539d019]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setParameters(java.lang.String)[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:31 GMT" name="setParameters" finished-at="2025-04-08T13:06:33 GMT" depends-on-methods="com.vinsguru.tests.AbstractTest.setDriver" duration-ms="1130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/flight-reservation/passenger-1.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setParameters -->
+        <test-method signature="userRegistrationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:33 GMT" name="userRegistrationTest" finished-at="2025-04-08T13:06:43 GMT" duration-ms="10765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="registrationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:43 GMT" name="registrationConfirmationTest" finished-at="2025-04-08T13:06:47 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.userRegistrationTest" duration-ms="3530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationConfirmationTest -->
+        <test-method signature="flightsSearchTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:47 GMT" name="flightsSearchTest" finished-at="2025-04-08T13:06:50 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.registrationConfirmationTest" duration-ms="3301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSearchTest -->
+        <test-method signature="flightsSelectionTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:50 GMT" name="flightsSelectionTest" finished-at="2025-04-08T13:06:53 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSearchTest" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightsSelectionTest -->
+        <test-method signature="flightReservationConfirmationTest()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:53 GMT" name="flightReservationConfirmationTest" finished-at="2025-04-08T13:06:55 GMT" depends-on-methods="com.vinsguru.tests.flightreservation.FlightReservationTest.flightsSelectionTest" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationConfirmationTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.vinsguru.tests.flightreservation.FlightReservationTest@48793bef]" started-at="2025-04-08T13:06:55 GMT" name="quitDriver" finished-at="2025-04-08T13:06:55 GMT" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.vinsguru.tests.flightreservation.FlightReservationTest -->
+    </test> <!-- passengers-count-1 -->
+  </suite> <!-- flight-reservation -->
+</testng-results>

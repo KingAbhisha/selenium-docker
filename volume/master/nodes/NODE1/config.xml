@@ -1,0 +1,19 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<slave>
+  <name>NODE1</name>
+  <description></description>
+  <remoteFS>D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node</remoteFS>
+  <numExecutors>1</numExecutors>
+  <mode>NORMAL</mode>
+  <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+  <launcher class="hudson.slaves.JNLPLauncher">
+    <workDirSettings>
+      <disabled>false</disabled>
+      <internalDir>remoting</internalDir>
+      <failIfWorkDirIsMissing>false</failIfWorkDirIsMissing>
+    </workDirSettings>
+    <webSocket>false</webSocket>
+  </launcher>
+  <label></label>
+  <nodeProperties/>
+</slave>

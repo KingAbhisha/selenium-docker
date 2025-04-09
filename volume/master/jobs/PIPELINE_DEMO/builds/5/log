@@ -1,0 +1,103 @@
+Started by user [8mha:////4KEiil5gL438CP3bd8SEWk5m/a7wRnYiFTnYJgWWGaaxAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+[8mha:////4PMJfb3KTFP8P0b8R8L9AHi0OWY2rC/u/MQuQwL1zFltAAAAoh+LCAAAAAAAAP9tjTEOwjAQBM8BClpKHuFItIiK1krDC0x8GCfWnbEdkooX8TX+gCESFVvtrLSa5wtWKcKBo5UdUu8otU4GP9jS5Mixv3geZcdn2TIl9igbHBs2eJyx4YwwR1SwULBGaj0nRzbDRnX6rmuvydanHMu2V1A5c4MHCFXMWcf8hSnC9jqYxPTz/BXAFEIGsfuclm8zQVqFvQAAAA==[0m[Pipeline] Start of Pipeline
+[8mha:////4L6TWar6yby2YtBHsfJoSRnn7Po3RYaCLwWPvTjU6NB1AAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycohUghExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jduZBmjwAAAAA==[0m[Pipeline] node
+Running on [8mha:////4AO2scBVbQRIW+XEIpM+v9CMrvZKCMBxYp7fDZCY2nrhAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgYB/eT83ILSktQifT9/F1dDfQCjW1X2xQAAAA==[0mNODE1 in D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node\workspace\PIPELINE_DEMO
+[8mha:////4KaRtEsXID6h8WWet498Z37WCfqtxNKxD3jojmz4D+sNAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gA0xsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfoP95RwAAAAA==[0m[Pipeline] {
+[8mha:////4PKOB5KgxcpQ0KWC4zNYkBV+jw/dxbqnS3sQ4x2Nrk3aAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gQkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jc09154wAAAAA==[0m[Pipeline] withEnv
+[8mha:////4CjBDBKlaOwuBlHdzXY0st+hbGjhio7k00QuA6TMRIgsAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0ggUxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jek7ggRwAAAAA==[0m[Pipeline] {
+[8mha:////4B4gVkz1uT4SLP/uAlyblmdsBAHRhXDWiUhtN85E4aaZAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0gwExsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jcChmMxwAAAAA==[0m[Pipeline] stage
+[8mha:////4CZVOZC4k1rFPmQWsTJ5x6ODgQxK1nhk/DL98SoM61dXAAAApR+LCAAAAAAAAP9tjTEOwjAUQ3+KOrAycoh0BAkxsUZZOEFIQkgb/d8mKe3EibgadyBQiQlLlmxL1nu+oE4RjhQdby12HpP2vA+jK4lPFLtroIm3dOGaMFGwXNpJkrGnpUrKFhaxClYC1hZ1oOTRZdiIVt1VExS65pxj2Q4CKm8GeAAThZxVzN8yR9jeRpMIf5y/AJj7DGxXvP/86jfpX/cvwAAAAA==[0m[Pipeline] { (stage-1)
+[8mha:////4N/eKx+3EcBi+CUZyMBQWxvbLQEwwG94M6GS8aZW1+qaAAAAoh+LCAAAAAAAAP9tjTEOAiEURD9rLGwtPQTbaoyVLaHxBMgiwpL/WWDdrTyRV/MOEjexcpJJ5k3zXm9Y5wQnSpZ7g73DrB2PYbR18YlSfws0cU9XrgkzBcOlmSR15rygpGJgCWtgJWBjUAfKDm2BrfDqodqg0LaXkup3FNC4boAnMFHNRaXyhTnB7j52mfDn+SuAORZg+9pD/AAeoCAqvAAAAA==[0m[Pipeline] bat
+
+D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node\workspace\PIPELINE_DEMO>docker run -e NUMBER=10 kingabhisha/square-finder 
+🔹 Debug: args.length = 1
+🔹 Debug: Received # is 10
+🔹 Debug: Env NUMBER = 10
+🔹 Debug: Parsed number is 10
+Square of 1 is => 1
+Square of 2 is => 4
+Square of 3 is => 9
+Square of 4 is => 16
+Square of 5 is => 25
+Square of 6 is => 36
+Square of 7 is => 49
+Square of 8 is => 64
+Square of 9 is => 81
+Square of 10 is => 100
+[8mha:////4G+siuAhwMmbcbVXwy16BEIazudukCLEIXaPQUlGFGjlAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKBDglR0VppeIFJjHFi3QX7QlLxIr7GH4iIRMVWO9PM641lijhydKqx1HpKlVdd6N301MCxvQYeVMMXVTElDlaVdii5tqcZSxaLeVmOhcbKUhU4eXKCtW7MwxTBkCvOEid30Mh9fccTmZ7KYqJ8YYzY3Po6Mf06fwMYu06Q77aCbP8Brmfz270AAAA=[0m[Pipeline] }
+[8mha:////4PPqsHhAhRVN4Ir/NFjplfUUKLMOqmnDoXhCuaKuFyvxAAAAox+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIMlYVjZZuh8QQRYgxkdjFZhMoTeTXvICMzVv7qv9e81xvrFHHk6FRrqfOUaq/6MLj5qZFjdw08qpYvqmZKHKyq7FhxY08LViwWy7IcK42NpTpw8uQEW92ahymCIVecJc7uoJH75o4nMj2XxUT5whSxuw1NYvp1/gYw9b0gL0tBtv8Aj1Msdr0AAAA=[0m[Pipeline] // stage
+[8mha:////4FFUd4Sc8AnG5Cnfcz5PriATm9jexsj0RYug9ud9NiekAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxWb7OZZvfPyORMEAAAA=[0m[Pipeline] stage
+[8mha:////4HKrc4/C3kyNkYlNrmj9bUUbE77fLVLFtxtwsw3nh5R+AAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUwIiYukZZOEFoQkgb/V9+UtqJE3E17kBLJSY8WLYl673eUESGE7ETjcXWY6y96ELvpiQG4vYaaBANXURNGClYoeygyNhqqYqShUVZDisJa4t1oOjRJdjIRj90GTS68px42o4Scm/u8IRMTuSkOX3LyLC99SYS/jh/ATB2CfLdfrbD/Cw+y7kUycIAAAA=[0m[Pipeline] { (stage-2)
+[8mha:////4Mgm75h6KS5taFd+5WIwzapnFLNOIbKbzN/4XJR4YPedAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUCDbE1DXKwglCE0La6P/yk9JOnIircQdaKjHhwbItWe/1hiIynIidaCy2HmPtRRd6NyUxELfXQINo6CJqwkjBCmUHRcZWS1WULCzKclhJWFusA0WPLsFGNvqhy6DRlefE03aUkHtzhydkciInzelbRobtrTeR8Mf5C4CxS5Dv9rMd5mfxAbNWnxXCAAAA[0m[Pipeline] withEnv
+[8mha:////4LTrky0pE8gXuT0r8QxEstarVz+ZRBt8jL8awGg2xklwAAAApx+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUSDAhpq5RFk4QmhDSRv+Xn5R24kRcjTvQUokJD5ZtyXqvNxSR4UTsRGOx9RhrL7rQuymJgbi9BhpEQxdRE0YKVig7KDK2WqqiZGFRlsNKwtpiHSh6dAk2stEPXQaNrjwnnrajhNybOzwhkxM5aU7fMjJsb72JhD/OXwCMXYJ8t5/tMD+LD5WQ+PfCAAAA[0m[Pipeline] {
+[8mha:////4DzI178RQpyzmKRTnRL3U/ZabpzkDmwK4pMRlV2khDZyAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCmgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGPIUG53n9qHN7LjSKW+AAAA[0m[Pipeline] bat
+
+D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node\workspace\PIPELINE_DEMO>docker run -e NUMBER=20 kingabhisha/square-finder 
+🔹 Debug: args.length = 1
+🔹 Debug: Received # is 20
+🔹 Debug: Env NUMBER = 20
+🔹 Debug: Parsed number is 20
+Square of 1 is => 1
+Square of 2 is => 4
+Square of 3 is => 9
+Square of 4 is => 16
+Square of 5 is => 25
+Square of 6 is => 36
+Square of 7 is => 49
+Square of 8 is => 64
+Square of 9 is => 81
+Square of 10 is => 100
+Square of 11 is => 121
+Square of 12 is => 144
+Square of 13 is => 169
+Square of 14 is => 196
+Square of 15 is => 225
+Square of 16 is => 256
+Square of 17 is => 289
+Square of 18 is => 324
+Square of 19 is => 361
+Square of 20 is => 400
+[8mha:////4CTuGFUFhXxLNgg2kKJx9HXtvRkvl1v28USWS/dxUBEkAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiCkSBqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGOY4V7vgAAAA==[0m[Pipeline] }
+[8mha:////4Km+lVNKxDcvirm5noj1y0LjBv1ERdDg7k1m75fPuLQHAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiJAokRJXWcsMLTGyME+vO2A5JxYv4Gn8gEImKLVY728zzBcsU4cjRYmuoc5Qah8H3dlo4cOwungds+YwNU2JvUJpBsjb1jJKzgTlFCQsBK0ON5+TIZliLVt1V5RXZ6pTj9B0ElE7f4AGFmMxZxfyFMcLm2uvE9PP8FcAYQoZyu//U7g3N4dT9vgAAAA==[0m[Pipeline] // withEnv
+[8mha:////4NT7jTpiFD+rafvoNqbjjf+PPmjSTUCPXI5cqKpJLDe4AAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIiRIUQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrt/lO7N8un7Ki+AAAA[0m[Pipeline] }
+[8mha:////4Nv5/JaIX+wYNIF9ZLcMOUNqlW9Ux61xraRKN+uclfpVAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOICaRFVWisNLzCxMU6sO2M7JBUv4mv8AYtIVGyx2tlmXm9YxwAnDgZ7TYOl2Fn0bjR54cRhuDqesOcLdkyRncZWTy0r3SzYctKwpChhJWCjqXMcLZkEW9HLh6ycJFOdU8jfUUBp1R2eUIhsTjKkL8wBdrdRRaaf568AZu8TlPU+16H+AAjcDMm+AAAA[0m[Pipeline] // stage
+[8mha:////4ABw6G2MF/+D/7z7dqF0Jf0Ysp4mmeAaBx8/fdrwv7xuAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjKGgQFa3lhheY2Bgn1l2wLyQVL+Jr/IFAJCq22llpNc8XlDnBgZKXjcM2YK6D7GLvpyYHSu0l0iAbOsuaMFN0UrtBk3XHGTWxgzmigIWCpcM6Ug7oGVaqMXdTRYO+OnGatr2CItgbPECoycwm8RfGBOtrbzPhz/NXAGPHIHYMxXbzOZZvT5Ty88EAAAA=[0m[Pipeline] stage
+[8mha:////4JF1kkYxjrMkXLy3AwfL6J4Qub/kdLuy9g4KOYy7LR/DAAAAph+LCAAAAAAAAP9tjTEOwjAUQ3+DOrAycohUdEVMrFEXThCaEJJG/7dJSjpxIq7GHWipxIQHy7ZkvdcbyhjgRMFwp7GzGFvLez+aOfFMobt5ytzRlbeEkbzmjc4NKX1ea0NJw6qCwUbAVmPrKVo0CXbCyYesvERTXVKYt6MAZtUATyjETE4ypG+ZAuzvo4qEP85fAEx9AlYfFquXZ/kBAsTc3cIAAAA=[0m[Pipeline] { (stage-3)
+[8mha:////4BX9O3PSSf3vnCn0DPe1wMtwPQpBokY9KGBmsLN8Hbv/AAAAox+LCAAAAAAAAP9tjTESwiAURH/iWNhaeggyE0vHypah8QSYIEKY/wkQSeWJvJp3EM2MlVvs7NvmPV+wjgGOFDSzCgeDsTPMu0mXxTKF4eooM0sX1hFGcooJlQX16rSgoKRgSVXDisNGYecoGtQJttzKu2ycRN2cUyjfgUNt+hEeUPFiTjKkL8wBdrepj4Q/z18BzD5B3baf2vs3w5BRkb4AAAA=[0m[Pipeline] bat
+
+D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node\workspace\PIPELINE_DEMO>docker run -e NUMBER=10 kingabhisha/square-finder 
+🔹 Debug: args.length = 1
+🔹 Debug: Received # is 10
+🔹 Debug: Env NUMBER = 10
+🔹 Debug: Parsed number is 10
+Square of 1 is => 1
+Square of 2 is => 4
+Square of 3 is => 9
+Square of 4 is => 16
+Square of 5 is => 25
+Square of 6 is => 36
+Square of 7 is => 49
+Square of 8 is => 64
+Square of 9 is => 81
+Square of 10 is => 100
+[8mha:////4LmwFz1RMn9WhQRMa1x6thR7qMm32AsKGMXG/6GnQjFnAAAApB+LCAAAAAAAAP9tjbEOwiAURV9rHFwd/QiaNG7GyZWw+AXYIkLJexSodPKL/DX/QbSJk3e4uecu5/mCdQxwpKCZVTgYjJ1h3k26LJYpDFdHmVm6sI4wklNMqCyoV6cFBSUFS6oaVhw2CjtH0aBOsOVW3mXjJOrmnEL5Dhxq04/wgIoXc5IhfWEOsLtNfST8ef4KYPY+Qd3uP9W+Ad3NsHm+AAAA[0m[Pipeline] }
+[8mha:////4GJhpprIJWHjf6B2gS880WqGoJCpOPZrPosq1OH0uSNZAAAApB+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIikKgQVVrLDS8wsTFOrDtjOyQVL+Jr/IFAJCq2WO1sM88XLFOEI0eLraHOUWocBt/baeHAsbt4HrDlMzZMib1BaQbJ2tQzSs4G5hQlLASsDDWekyObYS1adVeVV2SrU47TdxBQOn2DBxRiMmcV8xfGCJtrrxPTz/NXAGMIGcrd/lPbN8JP5Su+AAAA[0m[Pipeline] // stage
+[8mha:////4HxZgUhLMEyB9i3cPTVE6Dx747fUWNi8YoMUQr9tQbBqAAAAph+LCAAAAAAAAP9tjTEOwjAQBM9BKWgpeYQjUaRBVLSWG15gEmOcWHfBvpBUvIiv8QcMkajYamel1TxfUKYIB4pOdhZ7j6nxcgijy01OFPtLoEl2dJYNYaJgpbaTptYeF9TEFpaIAlYK1habQMmjY9ioztxNFQy66sQxb3sFhW9v8AChsplN5C/MEbbXsU2EP89fAcwDg6gZil39OZZv96T37sEAAAA=[0m[Pipeline] stage
+[8mha:////4KC1OdZ5y4d5+pFDTMTxup9WW+mYw5EiWXYfiJ/jPX6RAAAAqB+LCAAAAAAAAP9tjTEOwjAUQ3+LOrAycohUYoABMXWNsnCC0ISQNvq//KS0EyfiatyBlkpMeLBsS9Z7vaGIDCdiJxqLrcdYe9GF3k1JDMTtNdAgGrqImjBSsELZQZGx1VIVJQuLshxWEtYW60DRo0uwkY1+6DJodOU58bQdJeTe3OEJmZzISXP6lpFhe+tNJPxx/gJg7BLku/1sh/lZfAAyQCqkwgAAAA==[0m[Pipeline] { (Declarative: Post Actions)
+[8mha:////4H9O9q/fCC4U5hKh4Ad+f/uul+ELunjeR5va3sdaz8UPAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0YCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDhnK7+9Q+vAGvZp0gvgAAAA==[0m[Pipeline] bat
+
+D:\Project\selenium-docker-master\selenium-docker-master\03-automation-framework\selenium-docker\volume\node\workspace\PIPELINE_DEMO>docker system prune -f 
+Deleted Containers:
+6e7d1fb4e377125911086542ebc8eab0c9181d2506816a8af0f78b3c5204ebd6
+7e9d8c819df34339791c7381c58fe6a9b074a85f58c43f2742bd72fc04cf14d3
+a8f31781978faa79fe35e9d42068ec4780750209919ec0d9ca0745403e87955e
+
+Total reclaimed space: 110.6kB
+[8mha:////4Lg1IhxnqdxqgqXlCEZQM8S/pG7BeMMPrXIK7UntUYzTAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOIi0SCEqNJabniBiY1xYt0Z2yGpeBFf4w8EIlGxxWpnm3m+YJkiHDlabA11jlLjMPjeTgsHjt3F84Atn7FhSuwNSjNI1qaeUXI2MKcoYSFgZajxnBzZDGvRqruqvCJbnXKcvoOA0ukbPKAQkzmrmL8wRthce52Yfp6/AhhDyFBu95/avQGMKkS1vgAAAA==[0m[Pipeline] }
+[8mha:////4A39bPAFfbz+pyAIrMiNeSBGSuyCsoA3GYDQEY5ZVjiXAAAApR+LCAAAAAAAAP9tjTEOwjAQBC9BFLSUPOKCQKJBqWgtN7zAJMY4se6C7eBUvIiv8QcsIlGxxWpnm3m9YRk81OwNdpp6S6GxOLjR5IWJfX91nLDjCzZMgZ1GqZPkVp9mlBw1zClKWAhYaWocB0smwlp06qEqp8hU5+jzdxRQ2vYOTyhENkfl4xcmD5vb2Aamn+evAKZhiFDut7l2hw9mQDtDvgAAAA==[0m[Pipeline] // stage
+[8mha:////4OSZyNkkllb1xZHrCZ2wu5xsBkqZcPY5XPKRkY0fztB2AAAApB+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMIRQqJBVLRWGl5gEmOcWHfBvpBUvIiv8QciIlGx1c4083pjmSKOHJ1qLLWeUuVVF3o3PTVwbK+BB9XwRVVMiYNVpR1Kru1pxpLFYl6WY6GxslQFTp6cYK0b8zBFMOSKs8TJHTRyX9/xRKanspgoXxgjNre+Tky/zt8Axq4T5LutINt/ABLC40y9AAAA[0m[Pipeline] }
+[8mha:////4GZuxqgCDeqm7hH4zwegx2Quy7EsCYZRrbtD8qPV4kjaAAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcVZPsPeOlKkr0AAAA=[0m[Pipeline] // withEnv
+[8mha:////4CS5dsOH7CM0T0S+Is//J+iOcjDLul1pJ4t3cZyntzTtAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyshRk+w9e8C3YvQAAAA==[0m[Pipeline] }
+[8mha:////4JofSiHlrH4+qbRldkUQK6BKY3cgmbeoKVkkELDro5FDAAAAoh+LCAAAAAAAAP9tjTESgjAQRT84FraWHiIU2DlWthkaTxAhxkBmF5NFqDyRV/MOMjJj5a/+e817vbFOEUeOTrWWOk+p9qoPg5ufGjl218CjavmiaqbEwarKjhU39rRgxWKxLMux0thYqgMnT06w1a15mCIYcsVZ4uwOGrlv7ngi03NZTJQvTBG729Akpl/nbwBT3wvyci/Iyg/tuWn0vQAAAA==[0m[Pipeline] // node
+[8mha:////4PH6IfMvWv9i8ZjaGKW5P/9o4qdqO8JhqLTTp+6gDX84AAAAox+LCAAAAAAAAP9tjTEOwjAQBDdBFLSUPMKRQFSIitZKwwtMYowT6y7YF5KKF/E1/kBEJCq22plmXm8sU8SRo1ONpdZTqrzqQu+mpwaO7TXwoBq+qIopcbCqtEPJtT3NWLJYzMtyLDRWlqrAyZMTrHVjHqYIhlxxlji5g0bu6zueyPRUFhPlC2PE5tbXienX+RvA2HWCfLcXZNsPy6AOvr0AAAA=[0m[Pipeline] End of Pipeline
+Finished: SUCCESS

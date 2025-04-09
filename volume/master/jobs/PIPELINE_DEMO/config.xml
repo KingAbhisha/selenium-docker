@@ -1,0 +1,61 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<flow-definition plugin="workflow-job@1508.v9cb_c3a_a_89dfd">
+  <actions>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobAction plugin="pipeline-model-definition@2.2254.v2a_978de46f35"/>
+    <org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction plugin="pipeline-model-definition@2.2254.v2a_978de46f35">
+      <jobProperties/>
+      <triggers/>
+      <parameters/>
+      <options/>
+    </org.jenkinsci.plugins.pipeline.modeldefinition.actions.DeclarativeJobPropertyTrackerAction>
+  </actions>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <definition class="org.jenkinsci.plugins.workflow.cps.CpsFlowDefinition" plugin="workflow-cps@4080.va_15b_44a_91525">
+    <script>pipeline{
+
+    agent any
+
+    environment{
+        NUMBER = 10
+    }
+
+    stages{
+
+        stage(&apos;stage-1&apos;){
+            steps{
+                bat &quot;docker run -e NUMBER=${NUMBER} kingabhisha/square-finder&quot;
+            }
+        }
+
+        stage(&apos;stage-2&apos;){
+
+            environment{
+                NUMBER = 20
+            }
+
+            steps{
+                bat &quot;docker run -e NUMBER=${NUMBER} kingabhisha/square-finder&quot;
+            }
+        }
+
+        stage(&apos;stage-3&apos;){
+            steps{
+                bat &quot;docker run -e NUMBER=${NUMBER} kingabhisha/square-finder&quot;
+            }
+        }
+    }
+
+    post{
+        always{
+            bat &quot;docker system prune -f&quot;
+        }
+    }
+
+}</script>
+    <sandbox>true</sandbox>
+  </definition>
+  <triggers/>
+  <disabled>false</disabled>
+</flow-definition>
