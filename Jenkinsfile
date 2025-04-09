@@ -4,31 +4,23 @@ pipeline{
 
     stages{
 
-        stage('stage-1'){
+        stage('Build-Jar'){
             steps{
-                echo "mvn clean"
-                echo "mvn package"
+                bat "mvn clean package -DskipTests"
             }
         }
 
-        stage('stage-2'){
+        stage('Build-Docker-Images'){
 
             steps{
-                echo "build docker image"
+                bat "docker build -t=kingabhisha/selenium-docker-runnerfile ."
             }
         }
 
-        stage('stage-3'){
+        stage('Push-Inage'){
             steps{
-                echo "push docker image"
+                bat "docker push kingabhisha/selenium-docker-runnerfile"
             }
         }
     }
-
-    post{
-        always{
-            echo "clean-up"
-        }
-    }
-
 }
