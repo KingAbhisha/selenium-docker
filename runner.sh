@@ -18,9 +18,9 @@ echo "-------------------------------------------"
 # Step 1: Wait for Selenium Grid Hub to be ready
 echo "Checking if hub is ready..!"
 count=0
-until [ "$(curl -s http://${HUB_HOST:-hub}:4444/status | jq -r .value.ready)" == "true" ]; do  ### <<< MODIFIED
+until [ "$(curl -s http://${HUB_HOST:-hub}:4444/status | jq -r .value.ready)" == "true" ]; do
   count=$((count+1))
-  echo "Hub not ready yet - Attempt ${count}"       ### <<< MODIFIED
+  echo "Hub not ready yet - Attempt ${count}"
   if [ "$count" -ge 30 ]; then
     echo "**** HUB IS NOT READY WITHIN 30 SECONDS ****"
     exit 1
@@ -28,29 +28,38 @@ until [ "$(curl -s http://${HUB_HOST:-hub}:4444/status | jq -r .value.ready)" ==
   sleep 1
 done
 
-echo "Selenium Hub is up. Now checking if browser nodes are registered..."  ### <<< ADDED
+echo "Selenium Hub is up. Now checking if browser nodes are registered..."
 
-# Step 2: Wait for the appropriate browser node to register  ### <<< ADDED
-browser_type="${BROWSER:-chrome}"  ### <<< ADDED
-
+# Step 2: Wait for the appropriate browser node to register (Improved with /grid/status)
+browser_type="${BROWSER:-chrome}"
 count=0
+
 while true; do
-  node_count=$(curl -s http://${HUB_HOST:-hub}:4444/grid/status | jq ".nodes[] | select(.slots[].stereotype.browserName==\"${browser_type}\")" | wc -l)
+  grid_response=$(curl -s http://${HUB_HOST:-hub}:4444/grid/status)
+
+  has_nodes=$(echo "$grid_response" | jq '.nodes | type == "array"')
+  if [ "$has_nodes" == "true" ]; then
+    node_count=$(echo "$grid_response" | jq ".nodes[] | select(.slots[].stereotype.browserName==\"${browser_type}\")" | wc -l)
+  else
+    node_count=0
+  fi
+
   if [ "$node_count" -ge 1 ]; then
-    echo "$browser_type node(s) registered with Selenium Grid."  ### <<< ADDED
+    echo "$browser_type node(s) registered with Selenium Grid."
     break
   fi
+
   count=$((count+1))
-  echo "Waiting for $browser_type node to register... Attempt ${count}"  ### <<< ADDED
+  echo "Waiting for $browser_type node to register... Attempt ${count}"
   if [ "$count" -ge 30 ]; then
-    echo "**** $browser_type NODE NOT REGISTERED WITHIN 30 SECONDS ****"  ### <<< ADDED
+    echo "**** $browser_type NODE NOT REGISTERED WITHIN 30 SECONDS ****"
     exit 1
   fi
   sleep 1
 done
 
 # Step 3: Start the test suite
-echo "Running the tests now..."  ### <<< ADDED
+echo "Running the tests now..."
 
 java -cp 'libs/*' \
      -Dselenium.grid.enabled=true \
