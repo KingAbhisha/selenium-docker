@@ -35,7 +35,7 @@ browser_type="${BROWSER:-chrome}"  ### <<< ADDED
 
 count=0
 while true; do
-  node_count=$(curl -s http://${HUB_HOST:-hub}:4444/status | jq ".value.nodes[] | select(.uri | contains(\"${browser_type}\"))" | wc -l)  ### <<< ADDED
+  node_count=$(curl -s http://${HUB_HOST:-hub}:4444/grid/status | jq ".nodes[] | select(.slots[].stereotype.browserName==\"${browser_type}\")" | wc -l)
   if [ "$node_count" -ge 1 ]; then
     echo "$browser_type node(s) registered with Selenium Grid."  ### <<< ADDED
     break
