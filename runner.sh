@@ -26,6 +26,7 @@ do
   if [ "$count" -ge 30 ]
   then
       echo "**** HUB IS NOT READY WITHIN 30 SECONDS ****"
+      curl -s http://${HUB_HOST}:4444/status
       exit 1
   fi
   sleep 1
